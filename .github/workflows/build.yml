@@ -1,8 +1,7 @@
 
 name: Build PARVATHI Billing APK
 
-on:
-  workflow_dispatch:
+on: [workflow_dispatch]
 
 jobs:
   build:
@@ -31,4 +30,6 @@ jobs:
         with:
           name: parvathi-billing-demo
           path: app/build/app/outputs/flutter-apk/app-release.apk
+
+
 
